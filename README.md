@@ -1,5 +1,5 @@
 # Movie_Theatre_DB
-Example database of movie theatres, using DB2 | Fall 2022
+Example database of movie theatres, written in SQL, runs on DB2 | Fall 2022
 
 createTables.ddl
 Initializes tables for database
