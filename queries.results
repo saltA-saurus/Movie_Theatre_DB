@@ -1,0 +1,633 @@
+----------------
+-- All movies with gross earnings between $1200000 and $1500000
+----------------
+ID          GENRE GROSSEARNINGS RELEASEDATE TITLE                                                                           
+----------- ----- ------------- ----------- --------------------------------------------------------------------------------
+      10010 H           1201756        1996 Battleship Potemkin                                                             
+      10011 F           1200640        1976 Apocalypse Now                                                                  
+      10013 H           1204293        1992 Breathless                                                                      
+      10270 H           1201926        1935 Throne of Blood                                                                 
+      10279 R           1200423        1969 My Night at Maud's                                                              
+
+  5 record(s) selected.
+
+
+----------------
+-- Actors that have won more two or more Oscars
+----------------
+ID          FIRSTNAME                                LASTNAME                                 OSCARYEAR   MOVIEID    
+----------- ---------------------------------------- ---------------------------------------- ----------- -----------
+       1001 A. Alan                                  Zautcke                                         1999       10000
+       1005 A. Anthony                               Hooker                                          2006       10004
+       1006 A. Arnold                                osse                                            1991       10005
+       1007 A. Arthur                                Martinez                                        2008       10006
+       1008 A. Bailey                                Giang                                           1994       10007
+       1015 A. Burt                                  Abramishvili                                    2014       10014
+       1017 A. Don                                   Beserstyj                                       2012       10016
+       1019 A. Duncan                                Biernacki                                       2003       10018
+       1020 A. Edward                                Biglyaya                                        1997       10019
+       1021 A. Francis                               Bikhova                                         2010       10020
+       1025 A. George                                Bitleusov                                       2000       10024
+       1026 A. Gerald                                Black                                           2009       10025
+       1027 A. Gomes                                 Blagonravov                                     1999       10026
+       1028 A. Halim                                 Blenk-Schiebl                                   2013       10027
+       1035 A. Karides                               Chekayevsky                                     1990       10034
+       1037 A. Kimble                                Cherednichenko                                  2007       10036
+       1039 A. Leonard                               Chernegin                                       1993       10038
+       1040 A. li Ahmed                              Chernyavskaya                                   2001       10039
+       1041 A. Lloyd                                 Chernyavsky                                     2014       10040
+       1045 A. Mary                                  Chichua                                         2003       10044
+       1046 A. Michael                               Chikov                                          1997       10045
+       1047 A. Michelle                              Chikvaidze                                      2010       10046
+       1048 A. Morton                                Childs                                          2011       10047
+       1004 A. Ann                                   Ranger                                          2005       10054
+       1006 A. Arnold                                osse                                            2006       10056
+       1008 A. Bailey                                Giang                                           2008       10058
+       1010 A. Barrett                               Abdel Hadi                                      2004       10060
+       1014 A. Bromley                               Abrahamyan                                      1993       10064
+       1015 A. Burt                                  Abramishvili                                    2001       10065
+       1016 A. Delon                                 Bernauer                                        2014       10066
+       1017 A. Don                                   Beserstyj                                       2004       10067
+       1024 A. Garcia                                Bisyukov                                        1998       10074
+       1026 A. Gerald                                Black                                           2000       10076
+       1028 A. Halim                                 Blenk-Schiebl                                   1999       10078
+       1030 A. Harding                               Blikov                                          2005       10080
+       1034 A. Jay                                   Chebotarev                                      2008       10084
+       1035 A. Karides                               Chekayevsky                                     1994       10085
+       1036 A. Kent                                  Chekulayeva                                     1990       10086
+       1037 A. Kimble                                Cherednichenko                                  2002       10087
+       1044 A. Maria Riaro                           Chiarollo                                       2012       10094
+       1046 A. Michael                               Chikov                                          2003       10096
+       1048 A. Morton                                Childs                                          2010       10098
+       1003 A. Andrew                                ete                                             1999       10104
+       1004 A. Ann                                   Ranger                                          2013       10105
+       1005 A. Anthony                               Hooker                                          2005       10106
+       1006 A. Arnold                                osse                                            1996       10107
+       1013 A. Brent                                 Abovyan                                         2004       10114
+       1015 A. Burt                                  Abramishvili                                    1993       10116
+       1017 A. Don                                   Beserstyj                                       2014       10118
+       1019 A. Duncan                                Biernacki                                       2012       10120
+       1023 A. Frederick                             Biskusky                                        2010       10124
+       1024 A. Garcia                                Bisyukov                                        2011       10125
+       1025 A. George                                Bitleusov                                       1998       10126
+       1026 A. Gerald                                Black                                           2015       10127
+       1033 A. Jarrel                                Bokarev                                         2007       10134
+       1035 A. Karides                               Chekayevsky                                     2008       10136
+       1037 A. Kimble                                Cherednichenko                                  1990       10138
+       1039 A. Leonard                               Chernegin                                       2007       10140
+       1043 A. Maria                                 Chetverikov                                     2014       10144
+       1044 A. Maria Riaro                           Chiarollo                                       2004       10145
+       1045 A. Mary                                  Chichua                                         2012       10146
+       1046 A. Michael                               Chikov                                          1992       10147
+       1002 A. Alexandra                             Toff                                            2000       10154
+       1004 A. Ann                                   Ranger                                          1999       10156
+       1006 A. Arnold                                osse                                            2005       10158
+       1007 A. Arthur                                Martinez                                        1996       10159
+       1008 A. Bailey                                Giang                                           2006       10160
+       1012 A. Bobby                                 Ablova                                          1990       10164
+       1013 A. Brent                                 Abovyan                                         2002       10165
+       1014 A. Bromley                               Abrahamyan                                      2007       10166
+       1015 A. Burt                                  Abramishvili                                    1995       10167
+       1022 A. Frank                                 Bilashvili                                      2003       10174
+       1024 A. Garcia                                Bisyukov                                        2010       10176
+       1026 A. Gerald                                Black                                           1998       10178
+       1027 A. Gomes                                 Blagonravov                                     2015       10179
+       1028 A. Halim                                 Blenk-Schiebl                                   2000       10180
+       1032 A. Jacob                                 Bogoleova                                       2005       10184
+       1033 A. Jarrel                                Bokarev                                         1996       10185
+       1034 A. Jay                                   Chebotarev                                      2006       10186
+       1035 A. Karides                               Chekayevsky                                     1991       10187
+       1042 A. Maana                                 Chertov                                         2014       10194
+       1044 A. Maria Riaro                           Chiarollo                                       2014       10196
+       1046 A. Michael                               Chikov                                          2012       10198
+       1047 A. Michelle                              Chikvaidze                                      1992       10199
+       1048 A. Morton                                Childs                                          2003       10200
+       1001 A. Alan                                  Zautcke                                         1998       10204
+       1002 A. Alexandra                             Toff                                            2015       10205
+       1003 A. Andrew                                ete                                             2000       10206
+       1004 A. Ann                                   Ranger                                          2009       10207
+       1011 A. Bernard                               Abduvakhabov                                    2008       10214
+       1013 A. Brent                                 Abovyan                                         1990       10216
+       1015 A. Burt                                  Abramishvili                                    2007       10218
+       1016 A. Delon                                 Bernauer                                        1995       10219
+       1017 A. Don                                   Beserstyj                                       1993       10220
+       1021 A. Francis                               Bikhova                                         2012       10224
+       1022 A. Frank                                 Bilashvili                                      1992       10225
+       1023 A. Frederick                             Biskusky                                        2003       10226
+       1024 A. Garcia                                Bisyukov                                        1997       10227
+       1031 A. Jackson                               Blokh                                           1999       10234
+       1033 A. Jarrel                                Bokarev                                         2005       10236
+       1035 A. Karides                               Chekayevsky                                     2006       10238
+       1036 A. Kent                                  Chekulayeva                                     1991       10239
+       1037 A. Kimble                                Cherednichenko                                  2008       10240
+       1041 A. Lloyd                                 Chernyavsky                                     2007       10244
+       1042 A. Maana                                 Chertov                                         1995       10245
+       1043 A. Maria                                 Chetverikov                                     1993       10246
+       1044 A. Maria Riaro                           Chiarollo                                       2001       10247
+       1022 A. Frank                                 Bilashvili                                      2010       10254
+       1002 A. Alexandra                             Toff                                            1998       10256
+       1004 A. Ann                                   Ranger                                          2000       10258
+       1005 A. Anthony                               Hooker                                          2009       10259
+       1006 A. Arnold                                osse                                            1999       10260
+       1010 A. Barrett                               Abdel Hadi                                      2006       10264
+       1011 A. Bernard                               Abduvakhabov                                    1991       10265
+       1012 A. Bobby                                 Ablova                                          2008       10266
+       1013 A. Brent                                 Abovyan                                         1994       10267
+       1020 A. Edward                                Biglyaya                                        2014       10274
+       1022 A. Frank                                 Bilashvili                                      2012       10276
+       1024 A. Garcia                                Bisyukov                                        2003       10278
+       1025 A. George                                Bitleusov                                       1997       10279
+       1026 A. Gerald                                Black                                           2010       10280
+       1030 A. Harding                               Blikov                                          2000       10284
+       1031 A. Jackson                               Blokh                                           2009       10285
+       1032 A. Jacob                                 Bogoleova                                       1999       10286
+       1033 A. Jarrel                                Bokarev                                         2013       10287
+       1040 A. li Ahmed                              Chernyavskaya                                   1990       10294
+       1042 A. Maana                                 Chertov                                         2007       10296
+
+  127 record(s) selected.
+
+
+----------------
+-- All cards and the card owner for cards with maximum points
+----------------
+CARDID      POINTS      PERSONID    FIRSTNAME                                LASTNAME                                
+----------- ----------- ----------- ---------------------------------------- ----------------------------------------
+       3017         905        1117 Deborah                                  Green                                   
+       3022         905        1122 Melissa                                  Gibson                                  
+       3037         905        1137 Nicole                                   Rivera                                  
+       3040         905        1140 Harry                                    Wallace                                 
+       3044         905        1144 George                                   Hill                                    
+       3050         905        1150 Raymond                                  Collins                                 
+       3064         905        1164 Theresa                                  Jones                                   
+       3084         905        1184 Donita                                   Krystal                                 
+       3097         905        1197 Dennis                                   ayne                                    
+       3108         905        1208 Stanton                                  Tonita                                  
+       3111         905        1211 Brenda                                   almer                                   
+       3115         905        1215 Gerald                                   Stewart                                 
+       3117         905        1217 Jesse                                    Webb                                    
+       3118         905        1218 Dorothy                                  ierce                                   
+       3132         905        1232 Melaine                                  Jacquiline                              
+       3145         905        1245 Joyce                                    Garza                                   
+
+  16 record(s) selected.
+
+
+----------------
+-- Highest earning movie by director with first name "Gennadi"
+----------------
+ID          GENRE TITLE                                                                           
+----------- ----- --------------------------------------------------------------------------------
+      10080 H     Close-Up                                                                        
+
+  1 record(s) selected.
+
+
+-----------------
+-- Highest grossing movie
+-----------------
+ID          GENRE TITLE                                                                           
+----------- ----- --------------------------------------------------------------------------------
+      10094 C     Pulp Fiction                                                                    
+
+  1 record(s) selected.
+
+
+------------------
+-- Number of unqiue actors who have starred in more than 5 movies
+------------------
+STARFIVEORMORE
+--------------
+            44
+
+  1 record(s) selected.
+
+
+-----------------
+-- Actor(s) that have starred in the most movies (out of any role)
+-----------------
+ID          FIRSTNAME                                LASTNAME                                
+----------- ---------------------------------------- ----------------------------------------
+       1011 A. Bernard                               Abduvakhabov                            
+       1022 A. Frank                                 Bilashvili                              
+       1023 A. Frederick                             Biskusky                                
+       1034 A. Jay                                   Chebotarev                              
+
+  4 record(s) selected.
+
+
+-----------------
+-- Names and amount of all movie goers who have spent more than $150 in transactions
+-- in 2015, in descending order
+-----------------
+FIRSTNAME                                LASTNAME                                 AMOUNT                           
+---------------------------------------- ---------------------------------------- ---------------------------------
+Benjamin                                 Clark                                                               184.37
+Carmelina                                Mandie                                                              163.64
+Anna                                     Watson                                                              155.64
+
+  3 record(s) selected.
+
+
+-----------------
+-- Studios and distinct movies each has produced, grouped by studio name
+-----------------
+STUDIOAFFILIATION    NUMOFMOVIES
+-------------------- -----------
+Aris                          12
+Axel                          12
+Brett                         12
+Callahan                      12
+Carducci                      18
+Connolly                      12
+Daalder                       12
+Gordon                        12
+Greene                        12
+Haas                          18
+Ilioulos                      17
+Kardos                        12
+Mark atrick                   12
+Martialay                     12
+Riatti                        18
+Rothschild                    12
+Saville                       17
+Szurdi                        12
+Thomson                       18
+Victor                        12
+Wood Jr.                      12
+Zugsmith                      12
+
+  22 record(s) selected.
+
+
+------------------
+-- Same as above, but only studios who have worked with award winning directors and
+-- that award winning movie has a budget of $7000000 or greater
+------------------
+STUDIOAFFILIATION    NUMOFMOVIES
+-------------------- -----------
+Haas                          13
+Riatti                        10
+Carducci                       6
+Thomson                        7
+Ilioulos                       9
+Saville                       11
+Kardos                         7
+Connolly                       8
+Gordon                         7
+Wood Jr.                       4
+Daalder                        5
+Greene                         5
+Zugsmith                       8
+Szurdi                         6
+Mark atrick                    7
+Brett                          6
+Aris                           4
+Victor                         3
+Axel                           3
+Callahan                       7
+Martialay                      5
+Rothschild                     8
+
+  22 record(s) selected.
+
+
+------------------
+-- Movies that have been watched by both a movie goer and an actor (even if actor
+-- is a goer themself)
+------------------
+ID          GENRE TITLE                                                                            RELEASEDATE
+----------- ----- -------------------------------------------------------------------------------- -----------
+      10000 D     Citizen Kane                                                                            1997
+      10001 F     Vertigo                                                                                 2000
+      10002 S     2001: A Space Odyssey                                                                   1986
+      10003 H     Tokyo Story                                                                             1994
+      10006 F     Godfather, The                                                                          1997
+      10007 C     Sunrise                                                                                 2002
+      10008 D     Seven Samurai                                                                           1975
+      10009 H     Searchers, The                                                                          1969
+      10010 H     Battleship Potemkin                                                                     1996
+      10011 F     Apocalypse Now                                                                          1976
+      10012 F     Bicycle Thieves                                                                         1972
+      10013 H     Breathless                                                                              1992
+      10014 H     Passion of Joan of Arc, The                                                             1999
+      10017 H     Man with a Movie Camera, The                                                            1994
+      10018 R     Taxi Driver                                                                             1997
+      10019 H     Rashomon                                                                                1977
+      10020 H     Godfather Part II, The                                                                  1996
+      10021 C     Raging Bull                                                                             1983
+      10022 H     Persona                                                                                 1970
+      10023 C     Lawrence of Arabia                                                                      1991
+      10024 C     400 Blows, The                                                                          2004
+      10025 C     Andrei Rublev                                                                           1976
+      10028 S     Psycho                                                                                  2003
+      10029 D     Dolce vita, La                                                                          1976
+      10030 F     Avventura, L'                                                                           1989
+      10031 S     Some Like it Hot                                                                        1999
+      10032 H     Ordet                                                                                   1991
+      10033 S     Touch of Evil                                                                           1973
+      10034 S     General, The                                                                            1995
+      10035 F     Au hasard Balthazar                                                                     2001
+      10036 C     Blade Runner                                                                            1980
+      10039 H     Sunset Blvd.                                                                            1980
+      10040 F     Metropolis                                                                              1982
+      10041 F     Grande illusion, La                                                                     1994
+      10042 H     Night of the Hunter, The                                                                1989
+      10043 H     Modern Times                                                                            1981
+      10044 H     Rear Window                                                                             1973
+      10045 R     Playtime                                                                                1996
+      10046 H     Third Man, The                                                                          1974
+      10047 R     M                                                                                       1990
+      10050 C     Fanny and Alexander                                                                     1998
+      10051 H     Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb                    1968
+      10052 C     Chinatown                                                                               1982
+      10053 C     Stalker                                                                                 1978
+      10054 C     In the Mood for Love                                                                    1974
+      10055 S     Enfants du paradis, Les                                                                 2002
+      10056 S     Apartment, The                                                                          1963
+      10057 S     Ugetsu monogatari                                                                       2003
+      10058 D     Pather Panchali                                                                         1986
+      10061 H     Late Spring                                                                             1984
+      10062 S     North by Northwest                                                                      1970
+      10063 S     Leopard, The                                                                            1983
+      10064 F     Wild Strawberries                                                                       2000
+      10065 C     Mulholland Dr.                                                                          1987
+      10066 D     Strada, La                                                                              1982
+      10067 H     Gold Rush, The                                                                          2003
+      10068 H     Rio Bravo                                                                               1983
+      10069 F     Pierrot le fou                                                                          1961
+      10072 H     Gertrud                                                                                 1928
+      10073 H     Viridiana                                                                               1962
+      10074 R     Pickpocket                                                                              1959
+      10075 H     Amarcord                                                                                1959
+      10076 R     Voyage in Italy                                                                         1961
+      10077 H     Blue Velvet                                                                             1936
+      10078 H     Conformist, The                                                                         1995
+      10079 C     Jules et Jim                                                                            2003
+      10080 H     Close-Up                                                                                1990
+      10083 C     GoodFellas                                                                              1958
+      10084 S     Sans soleil                                                                             1977
+      10085 S     Magnificent Ambersons, The                                                              1982
+      10086 S     It's a Wonderful Life                                                                   1974
+      10087 D     Man Escaped, A                                                                          1957
+      10088 F     Brighter Summer Day, A                                                                  1926
+      10089 S     Jeanne Dielman, 23 Quai du Commerce, 1080 Bruxelles                                     1973
+      10090 H     S�t�ntang�                                                                              1987
+      10091 S     Clockwork Orange, A                                                                     1980
+      10094 C     Pulp Fiction                                                                            1955
+      10095 D     Intolerance                                                                             1941
+      10096 H     Man Who Shot Liberty Valance, The                                                       1993
+      10097 H     Jet_e, La                                                                               1989
+      10098 F     Annie Hall                                                                              1918
+      10099 F     Greed                                                                                   1988
+      10100 H     Gone with the Wind                                                                      1993
+      10101 H     Jaws                                                                                    1963
+      10102 H     Eclisse, L'                                                                             1961
+      10105 R     Histoire(s) du  cin_ma                                                                  1955
+      10106 H     Blowup                                                                                  1991
+      10107 H     Mother and the Whore, The                                                               1980
+      10108 C     Bringing Up Baby                                                                        1935
+      10109 H     To Be or Not to Be                                                                      1972
+      10110 C     Star Wars                                                                               1978
+      10111 C     Sherlock Jr.                                                                            1924
+      10112 C     Hiroshima mon amour                                                                     1971
+      10113 S     Ikiru                                                                                   1930
+      10116 D     Once Upon a Time in America                                                             1986
+      10117 F     Vivre sa vie                                                                            1983
+      10118 S     Letter from an Unknown Woman                                                            1930
+      10119 H     Manhattan                                                                               1927
+      10120 S     Spirit of the Beehive, The                                                              1997
+      10121 S     Madame de...                                                                            1987
+      10122 F     Yi yi                                                                                   1964
+      10123 C     �ge d'or, L'                                                                            1995
+      10124 D     Chien andalou, Un                                                                       1962
+      10127 F     Nosferatu                                                                               1968
+      10128 F     Spring in a Small Town                                                                  1983
+      10129 H     Badlands                                                                                1959
+      10130 H     Woman Under the Influence, A                                                            1939
+      10131 H     E.T. The Extra-Terrestrial                                                              1939
+      10132 R     Ali: Fear Eats the Soul                                                                 1938
+      10133 H     Rome, Open City                                                                         1959
+      10134 R     Matter of Life and Death, A                                                             1976
+      10135 H     My Darling Clementine                                                                   1956
+      10138 H     Days of Heaven                                                                          1977
+      10139 C     One Flew Over the Cuckoo's Nest                                                         1979
+      10140 C     Exterminating Angel, The                                                                1981
+      10141 C     Don't Look Now                                                                          1941
+      10142 S     Life and Death of Colonel Blimp, The                                                    1990
+      10143 S     Good, the Bad and the Ugly, The                                                         1992
+      10144 S     Napol_on                                                                                1936
+      10145 D     Beau travail                                                                            1929
+      10146 F     Partie de campagne                                                                      1934
+      10149 S     City of Sadness, A                                                                      1968
+      10150 S     King Kong                                                                               1993
+      10151 F     Duck Soup                                                                               1931
+      10152 C     Double Indemnity                                                                        1934
+      10153 D     His Girl Friday                                                                         1984
+      10154 H     Brief Encounter                                                                         1993
+      10155 H     Alien                                                                                   1995
+      10156 F     Umbrellas of Cherbourg, The                                                             1958
+      10157 F     Gospel According to St. Matthew, The                                                    1993
+      10160 H     Red Shoes, The                                                                          1981
+      10161 R     Night and Fog                                                                           1997
+      10162 H     Discreet Charm of the Bourgeoisie, The                                                  1970
+      10163 R     Argent, L'                                                                              1991
+      10164 H     Nights of Cabiria                                                                       1991
+      10165 H     Last Laugh, The                                                                         1992
+      10166 C     Ran                                                                                     1981
+      10167 H     Grapes of Wrath, The                                                                    1961
+      10168 C     Vampyr                                                                                  1981
+      10171 S     Mouchette                                                                               1973
+      10172 S     River, The                                                                              1993
+      10173 S     Nanook of the North                                                                     1992
+      10174 D     Black Narcissus                                                                         1987
+      10175 F     Great Dictator, The                                                                     2003
+      10176 S     Conversation, The                                                                       1939
+      10177 H     Rosemary's Baby                                                                         1993
+      10178 S     Out of the Past                                                                         1965
+      10179 S     Imitation of Life                                                                       1957
+      10182 D     Umberto D.                                                                              1924
+      10183 H     Sweet Smell of Success                                                                  1925
+      10184 H     Paisan                                                                                  1914
+      10185 F     Best Years of Our Lives, The                                                            1984
+      10186 F     Samoura�, Le                                                                            1990
+      10187 H     Chungking Express                                                                       1927
+      10188 H     Celine and Julie Go Boating                                                             1932
+      10189 H     Rocco and His Brothers                                                                  1981
+      10190 R     Colour of Pomegranate, The                                                              1968
+      10193 H     Chimes at Midnight                                                                      1979
+      10194 H     Ashes and Diamonds                                                                      1936
+      10195 C     Close Encounters of the Third Kind                                                      1952
+      10196 H     Cries and Whispers                                                                      1988
+      10197 C     Deer Hunter, The                                                                        1993
+      10198 C     Sullivan's Travels                                                                      1999
+      10199 C     Kes                                                                                     1999
+      10200 S     McCabe & Mrs. Miller                                                                    1976
+      10204 F     Solaris                                                                                 1932
+      10205 S     Paths of Glory                                                                          1973
+      10206 H     Meshes of the Afternoon                                                                 1989
+      10207 S     Brazil                                                                                  1926
+      10208 S     Kind Hearts and Coronets                                                                1941
+      10209 F     Red River                                                                               1941
+      10210 C     Band Wagon, The                                                                         1993
+      10211 D     Raiders of the Lost Ark                                                                 1956
+      10215 F     Wings of Desire                                                                         1950
+      10216 H     Ivan the Terrible, Part 2                                                               1955
+      10217 H     Big Lebowski, The                                                                       1989
+      10218 H     Dekalog                                                                                 1955
+      10219 R     Death in Venice                                                                         1977
+      10220 H     Faces                                                                                   1954
+      10221 R     Mean Streets                                                                            1968
+      10222 H     Spirited Away                                                                           1982
+      10226 C     Treasure of the Sierra Madre, The                                                       1955
+      10227 C     Breaking the Waves                                                                      1989
+      10228 C     Touki Bouki                                                                             1982
+      10229 S     Crowd, The                                                                              1939
+      10230 S     Birth of a Nation, The                                                                  2003
+      10231 S     Bonnie and Clyde                                                                        1975
+      10232 D     Wavelength                                                                              2003
+      10233 F     Music Room, The                                                                         1990
+      10237 S     Quiet Man, The                                                                          1995
+      10238 F     Underground                                                                             1999
+      10239 C     Fargo                                                                                   1948
+      10240 D     Germany, Year Zero                                                                      1999
+      10241 H     Night of the Living Dead                                                                2001
+      10242 H     Memories of Underdevelopment                                                            1969
+      10243 F     Ivan the Terrible, Part 1                                                               1985
+      10244 F     Eraserhead                                                                              1993
+      10248 R     World of Apu, The                                                                       1935
+      10249 H     Crimes and Misdemeanors                                                                 1929
+      10250 R     Paris, Texas                                                                            1985
+      10251 H     Autumn Afternoon, An                                                                    1916
+      10252 H     Only Angels Have Wings                                                                  1990
+      10253 C     Exorcist, The                                                                           1989
+      10254 H     Verdugo, El                                                                             1984
+      10255 C     In a Lonely Place                                                                       1998
+      10259 S     Day of Wrath                                                                            1973
+      10260 S     Broken Blossoms                                                                         1917
+      10261 D     Husbands                                                                                1916
+      10262 F     Groundhog Day                                                                           1974
+      10263 S     Big Sleep, The                                                                          1953
+      10264 H     Life of Oharu, The                                                                      1991
+      10265 S     Maltese Falcon, The                                                                     1941
+      10266 S     Freaks                                                                                  1979
+      10270 H     Throne of Blood                                                                         1935
+      10271 H     Notte, La                                                                               1932
+      10272 F     Johnny Guitar                                                                           1927
+      10273 F     Empire Strikes Back, The                                                                1991
+      10274 H     Three Colours: Red                                                                      1990
+      10275 H     Schindler's List                                                                        1978
+      10276 H     Distant Voices, Still Lives                                                             1993
+      10277 R     Videodrome                                                                              1997
+      10281 H     Berlin Alexanderplatz                                                                   1964
+      10282 C     Black God, White Devil                                                                  1928
+      10283 H     Unforgiven                                                                              1988
+      10284 C     It Happened One Night                                                                   1961
+      10285 C     To Kill a Mockingbird                                                                   1950
+      10286 C     I Am Cuba                                                                               1950
+      10287 S     Love Streams                                                                            1962
+      10288 S     Listen to Britain                                                                       1973
+      10292 S     Kings of the Road                                                                       1984
+      10293 H     Cinema Paradiso                                                                         1984
+      10294 S     In the Realm of the Senses                                                              1984
+      10295 S     Canterbury Tale, A                                                                      1964
+      10296 F     How Green Was My Valley                                                                 1964
+      10297 C     Time to Live and the Time to Die, The                                                   1978
+
+  235 record(s) selected.
+
+
+------------------
+-- Concession stands that sold more than 50 products, ascending order by quantity sold
+------------------
+MOVIETHEATERID TYPE                                     PRODUCTSSOLD
+-------------- ---------------------------------------- ------------
+         18569 memento store                                      53
+         15056 memento store                                      83
+         18562 memento store                                     136
+         19465 memento store                                     152
+         19031 food store                                        154
+         17932 food store                                        168
+         15011 memento store                                     179
+         18562 food store                                        203
+         21770 memento store                                     220
+         19482 memento store                                     221
+         15011 food store                                        263
+         15056 food store                                        277
+         18569 food store                                        292
+         19232 memento store                                     297
+         15961 food store                                        311
+         19465 food store                                        311
+         19232 food store                                        375
+         19482 food store                                        450
+         21770 food store                                        494
+
+  19 record(s) selected.
+
+
+------------------
+-- Concession stands that have more than $570 in sales, ascending order by sales
+-- amount
+------------------
+MOVIETHEATERID TYPE                                     SALES                            
+-------------- ---------------------------------------- ---------------------------------
+         18569 memento store                                                       635.12
+         15056 memento store                                                      1055.71
+         19031 food store                                                         1657.03
+         18562 memento store                                                      1783.19
+         19465 memento store                                                      1850.86
+         15011 memento store                                                      2088.89
+         17932 food store                                                         2356.82
+         21770 memento store                                                      2715.30
+         18562 food store                                                         2734.09
+         19482 memento store                                                      2937.36
+         15056 food store                                                         3392.94
+         18569 food store                                                         3598.34
+         15011 food store                                                         3651.27
+         19465 food store                                                         3657.50
+         19232 memento store                                                      3722.08
+         15961 food store                                                         3861.81
+         19232 food store                                                         4775.58
+         19482 food store                                                         5551.19
+         21770 food store                                                         6073.15
+
+  19 record(s) selected.
+
+
+------------------
+-- Movie theaters that played drama and romance on the same day
+------------------
+ID          NAME                 PROVINCE            
+----------- -------------------- --------------------
+      18569 Galaxy               Yukon               
+      21770 Cinemas Guzzo        Prince Edward Island
+      19482 remiere              Nova Scotia         
+
+  3 record(s) selected.
+
+
+------------------
+-- Movie theaters with greater than or equal to 4 screens, and brought in ticket
+-- sales of less than $10000 for any year
+------------------
+ID          NAME                 PROVINCE            
+----------- -------------------- --------------------
+      15961 Cinema City          Quebec              
+      18569 Galaxy               Yukon               
+      15056 Encore               Nova Scotia         
+      19465 AMC                  Quebec              
+      19232 Stinson              Nunavut             
+
+  5 record(s) selected.
+
+
+------------------
+-- Most profitable product catergory measured by total sales
+------------------
+CATEGORY                                 TOTSALES                         
+---------------------------------------- ---------------------------------
+toy                                                                4837.50
+
+  1 record(s) selected.
+
+
